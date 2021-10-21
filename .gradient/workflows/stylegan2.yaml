@@ -31,10 +31,7 @@ jobs:
     with:
       script: |-
         pip install scipy==1.3.3
-        apt-get install wget
-        export http_proxy = socks5://13.233.150.134:443
-        wget –O – –q https://checkip.amazonaws.com
-        sleep 10
+        
         pip install requests==2.22.0
         pip install Pillow==6.2.1
         cd /inputs/stylegan2
